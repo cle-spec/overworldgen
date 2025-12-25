@@ -1,0 +1,29 @@
+{
+    "name": "Overworldgen",
+    "version": "0.0.1",
+    "description": "Procedural overworld generator for MakeCode Arcade",
+    "dependencies": {
+        "device": "*",
+        "arcade-overworld": "github:riknoll/arcade-overworld#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "randomWorldGenerator.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.63",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
